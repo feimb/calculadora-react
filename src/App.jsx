@@ -1,5 +1,6 @@
 import { useState } from 'react'
-
+import NumberPad  from "./components/NumberPad";
+import Display from './components/Display';
 import './App.css'
 
 function App() {
@@ -9,30 +10,9 @@ function App() {
     <>
       <form action="">
         <div className="calculadora">
-          <div className="display">
-            <p id="secondNumber">
-              24
-            </p>
-            <div id="firstNumber">
-              123
-            </div>
-          </div>
-          <div className="buttons">
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" id='delete' value={"C"} />
-            
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-            <input type="button" className="button" />
-          </div>
+          <Display />
+
+          <NumberPad />
         </div>
       </form>
     </>

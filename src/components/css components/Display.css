@@ -1,0 +1,32 @@
+.display{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #080808;
+  }
+  #secondNumber{
+    position: absolute;
+    width: auto;
+    color: white;
+    border: none;
+    background-color: #080808;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 20px;
+    outline: none;
+    font-size: 1.2rem;
+  }
+  #firstNumber{
+    position: absolute;
+    width: auto;
+    color: white;
+    border: none;
+    background-color: #080808;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-left: 20px;
+    outline: none;
+    font-size: 1.2rem;
+  }
